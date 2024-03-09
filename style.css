@@ -1,0 +1,70 @@
+.error {
+    color: red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://gifs.eco.br/wp-content/uploads/2021/09/paisagens-tumblr-gifs-7.gif'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  #cadastroForm {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #cadastroForm label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  #cadastroForm input[type="text"],
+  #cadastroForm input[type="number"],
+  #cadastroForm input[type="tel"],
+  #cadastroForm input[type="date"],
+  #cadastroForm input[type="email"],
+  #cadastroForm input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  #cadastroForm button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #cadastroForm button:hover {
+    background-color: #4cae4c;
+  }
+  
+  #resultado {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
